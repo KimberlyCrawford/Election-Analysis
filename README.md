@@ -1,5 +1,5 @@
 # Election-Analysis
-with Python 3.7.6 and VS Code
+with Python 3.7.6 and VS Code 1.58.0
 
 ## Overview of Election Audit
 An election audit was conducted in a Colorado district using Python, VS Code and the Command Line. 
