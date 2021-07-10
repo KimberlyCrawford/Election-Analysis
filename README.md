@@ -2,15 +2,20 @@
 with Python 3.7.6 and VS Code 1.58.0
 
 ## Overview of Election Audit
-An election audit was conducted in a Colorado district using Python, VS Code and the Command Line. 
+An audit was conducted to determine election results in a Colorado district. 
 
 ### Purpose
 The purpose of this project was to generate a vote count report to certify the election results.
 #### Data: 
-Included 
+Data was collected using three primary voting methods:
+- Mail-in Ballots - hand counted at the central office.
+- Punch Cards - collected and fed into a machine that tabulates both totals and sends results to the central office.
+- Direct Recording Electronic (DRE) Machines - memory cards from the DRE machines are sent to the central office and red by a computer.
+
+All data was collected in an 11K KB Excel CVS file with 369,711 ballot results.
 
 #### Computer Language: 
-Python programming language was used. For more information about Python, visit https://www.python.org/about/. Python files were run in both a text editor (VS Code) and from the command line. VS Code was used to catch syntax errors while writing and debugging the script.
+Python programming language was used. For more information about Python, visit https://www.python.org/about/. Python files were executived in both a text editor (VS Code) and from the command line. VS Code was used to catch syntax errors while writing and debugging the script.
 
 ## Election Audit Results: 
 Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
