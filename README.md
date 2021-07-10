@@ -2,13 +2,15 @@
 with Python 3.7.6 and VS Code
 
 ## Overview of Election Audit
-An election audit was conducted in a district in the state of Colorado using Python, VS Code and the Command Line. 
+An election audit was conducted in a Colorado district using Python, VS Code and the Command Line. 
 
 ### Purpose
 The purpose of this project was to generate a vote count report to certify the election results.
-#### Data: Included 
+#### Data: 
+Included 
 
-#### Computer Language: Python programming language was used. For more information about Python, visit https://www.python.org/about/. Python files were run in both a text editor (VS Code) and from the command line. VS Code was used to catch syntax errors while writing and debugging the script.
+#### Computer Language: 
+Python programming language was used. For more information about Python, visit https://www.python.org/about/. Python files were run in both a text editor (VS Code) and from the command line. VS Code was used to catch syntax errors while writing and debugging the script.
 
 ## Election Audit Results: 
 Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
