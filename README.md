@@ -20,7 +20,7 @@ Python programming language was used. For more information about Python, visit h
 ## Election Audit Results: 
 Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
 
-- How many votes were cast in this congressional election?
+<!-- - How many votes were cast in this congressional election? Total number of votes cast:? A complete list of candidates who received votes? Total number of votes each candidate received? Percentage of votes each candidate won? The winner of the election based on popular vote?
 - Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
 - Which county had the largest number of votes?
 - Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
