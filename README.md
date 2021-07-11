@@ -15,17 +15,19 @@ An assistant to a Colorado Board of Elections employee was given the following t
 
 ## Summary 
 The analysis of the election shows that:
-- There were "x" votes cast in the election.
+- There were 369,711 votes cast in the election.
 - The candidates were:
--   Candidate 1
--   Candidate 2
--   Candidate 3
+-   Charles Casper Stockham
+-   Diana DeGette
+-   Raymon Anthony Doane
 -  The candidate results were:
--   Candidate 1 received "x%" of the vote and "y" number of votes.
--   Candidate 1 received "x%" of the vote and "y" number of votes.
--   Candidate 1 received "x%" of the vote and "y" number of votes.
+-   Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes.
+-   Diana DeGette received 73.8% of the vote and 272,892 number of votes.
+-   Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
 -  The winner of the election was:
--   Candidate (1, 2 or 3), who received "x%" of the vote and "y" number of votes.
+-   Diana DeGette, who received 73.8% of the vote and 272,892 number of votes.
+
+Images ![filename](URL)
     
 ## Challenge Overview 
 The election commission requested the following additional data to complete the audit:
@@ -41,10 +43,6 @@ The additional analysis of the election shows that:
 -   ???.
 - The county with the highest turnout was ???.
 
-### Images
-Images ![filename](URL)
-
-### Images
 Images ![filename](URL)
 
 ## Business Proposal to Election Commission
