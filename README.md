@@ -55,5 +55,8 @@ This script can be used—with some modifications—for any election. Currently,
 ![Election%20data.png](https://github.com/KimberlyCrawford/Election-Analysis/blob/main/Election%20data.png)
 
 Two examples of how this script can be modified to be used for other elections includes the following:
-1. The counties in the district will stay the same; however, the candidates will change along with the ballot IDs for each election. Changing the data file being read would be your only change if you want the same results for a different election. 
+1. Updated information in the data file with new candidate names and ballot IDs - The counties in the district will stay the same; however, the candidates will change along with the ballot IDs for each election. Changing the data file being read would be your only change if you want the same results for a different election. For example, the name of the data file might be more specific to each election, i.e. Sheriff_2021_election_data. The name of the files to load to and save to would need to be modified in the script.
+![Variable%20to%20Load.png](https://github.com/KimberlyCrawford/Election-Analysis/blob/main/Variable%20to%20Load.png)
+
+2. Updated information in the data file with political party instead of county, candidate names and ballot IDs - Again, updates to the data file names in the first part of the script as shown in the first example above would need to be made. Then, updates to the variables names will need to be changed throughout the script. For instance, county_options would need to be changed to political_party_options and so on.
 ![Variable%20to%20Load.png](https://github.com/KimberlyCrawford/Election-Analysis/blob/main/Variable%20to%20Load.png)
