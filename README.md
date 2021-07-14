@@ -43,7 +43,7 @@ The additional analysis of the election shows that:
 -- Arapahoe County had 6.7% votes and 24,801 number of votes.
 - The county with the highest turnout was Denver.
 
-Images ![filename](URL)
+![County_Election_results.png](https://github.com/KimberlyCrawford/Election-Analysis/blob/main/County_Election_results.png)
 
 ## Business Proposal to Election Commission
 Provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
