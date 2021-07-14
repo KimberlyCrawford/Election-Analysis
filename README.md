@@ -52,7 +52,7 @@ See the following election results for county and candidates:
 ## Business Proposal to Election Commission
 This script can be used—with some modifications—for any election. Currently, our data set consists of three columms: (1) Ballot ID, (2) County, and (3) Candidate. See the sample data below:
 
-![Election_data.png](https://github.com/KimberlyCrawford/Election-Analysis/blob/main/Election_data.png)
+![Election%20data.png](https://github.com/KimberlyCrawford/Election-Analysis/blob/main/Election%20data.png)
 
 Two examples of how this script can be modified to be used for other elections includes the following:
 1. The counties in the district will stay the same; however, the candidates will change along with the ballot IDs for each election. Changing the data file being read would be your only change if you want the same results for a different election. 
