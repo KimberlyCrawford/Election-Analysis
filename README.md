@@ -59,4 +59,4 @@ Two examples of how this script can be modified to be used for other elections i
 ![Variable%20to%20Load.png](https://github.com/KimberlyCrawford/Election-Analysis/blob/main/Variable%20to%20Load.png)
 
 2. Updated information in the data file with political party instead of county, candidate names and ballot IDs - Again, updates to the data file names in the first part of the script as shown in the first example above would need to be made. Then, updates to the variables names will need to be changed throughout the script. For instance, county_options would need to be changed to political_party_options and so on.
-![Variable%20to%20Load.png](https://github.com/KimberlyCrawford/Election-Analysis/blob/main/Variable%20to%20Load.png)
+![Political_party.png](https://github.com/KimberlyCrawford/Election-Analysis/blob/main/Political_party.png)
