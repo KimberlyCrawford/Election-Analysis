@@ -56,4 +56,4 @@ This script can be used—with some modifications—for any election. Currently,
 
 Two examples of how this script can be modified to be used for other elections includes the following:
 1. The counties in the district will stay the same; however, the candidates will change along with the ballot IDs for each election. Changing the data file being read would be your only change if you want the same results for a different election. 
-![Variable_to_load.png](https://github.com/KimberlyCrawford/Election-Analysis/blob/main/Variable_to_load.png)
+![Variable%20to%20Load.png](https://github.com/KimberlyCrawford/Election-Analysis/blob/main/Variable%20to%20Load.png)
