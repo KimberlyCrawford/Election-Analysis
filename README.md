@@ -1,36 +1,62 @@
 # Election-Analysis
-with Python 3.7.6 and VS Code 1.58.0
 
-## Overview of Election Audit
-An audit was conducted to determine election results in a Colorado district. 
+## Project Overview
+An assistant to a Colorado Board of Elections employee was given the following tasks to complete an election audit of a local congressional election.
 
-### Purpose
-The purpose of this project was to generate a vote count report to certify the election results.
-#### Data: 
-Data was collected using three primary voting methods:
-- Mail-in Ballots - hand counted at the central office.
-- Punch Cards - collected and fed into a machine that tabulates both totals and sends results to the central office.
-- Direct Recording Electronic (DRE) Machines - memory cards from the DRE machines are sent to the central office and red by a computer.
+1. Calculate the total number of votes cast.
+2. Get a complete list of candidates who received votes.
+3. Calculate the total number of votes each candidate received.
+4. Calculate the percentage of votes each candidate won.
+5. Determine the winner of the election based on popular vote.
 
-All data was collected in an 11K KB Excel CVS file with 369,711 ballot results.
+## Resources
+- Data Source: election_results.csv
+- Software: Python 3.7.6, Visual Studio Code 1.58.0
 
-#### Computer Language: 
-Python programming language was used. For more information about Python, visit https://www.python.org/about/. Python files were executived in both a text editor (VS Code) and from the command line. VS Code was used to catch syntax errors while writing and debugging the script.
+## Summary 
+The analysis of the election shows that:
+- There were 369,711 votes cast in the election.
+- The candidates were:
+-- Charles Casper Stockham
+-- Diana DeGette
+-- Raymon Anthony Doane
+-  The candidate results were:
+-- Charles Casper Stockham received 23.0% of the vote and 85,213 number of votes.
+-- Diana DeGette received 73.8% of the vote and 272,892 number of votes.
+-- Raymon Anthony Doane received 3.1% of the vote and 11,606 number of votes.
+-  The winner of the election was:
+-- Diana DeGette, who received 73.8% of the vote and 272,892 number of votes.
 
-## Election Audit Results: 
-Using a bulleted list, address the following election outcomes. Use images or examples of your code as support where necessary.
+![Election_results.png](https://github.com/KimberlyCrawford/Election-Analysis/blob/main/Election_results.png)
+    
+## Challenge Overview 
+The election commission requested the following additional data to complete the audit:
+- The voter turnout for each county.
+- The percentage of votes from each county out of the total count.
+- The county with the highest turnout.
 
-<!-- - How many votes were cast in this congressional election? Total number of votes cast:? A complete list of candidates who received votes? Total number of votes each candidate received? Percentage of votes each candidate won? The winner of the election based on popular vote?
-- Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
-- Which county had the largest number of votes?
-- Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
-- Which candidate won the election, what was their vote count, and what was their percentage of the total votes?
+## Challenge Summary 
+The additional analysis of the election shows that:
+- The voter turnout and percentage of votes from each county included:
+-- Jefferson County had 10.5% votes and 38,855 number of votes.
+-- Denver County had 82.8% votes and 306,055 number of votes.
+-- Arapahoe County had 6.7% votes and 24,801 number of votes.
+- The county with the highest turnout was Denver.
 
-### Images
-![filename](URL)
+![County_Election_results.png](https://github.com/KimberlyCrawford/Election-Analysis/blob/main/County_Election_results.png)
 
-### Images
-![filename](URL)
+See the following election results for county and candidates:
 
-## Election Audit Summary
-In a summary statement, provide a business proposal to the election commission on how this script can be used—with some modifications—for any election. Give at least two examples of how this script can be modified to be used for other elections.
+![Final_election_results.png](https://github.com/KimberlyCrawford/Election-Analysis/blob/main/Final_election_results.png)
+
+## Business Proposal to Election Commission
+This script can be used—with some modifications—for any election. Currently, our data set consists of three columms: (1) Ballot ID, (2) County, and (3) Candidate. See the sample data below:
+
+![Election%20data.png](https://github.com/KimberlyCrawford/Election-Analysis/blob/main/Election%20data.png)
+
+Two examples of how this script can be modified to be used for other elections includes the following:
+1. Updated information in the data file with new candidate names and ballot IDs - The counties in the district will stay the same; however, the candidates will change along with the ballot IDs for each election. Changing the data file being read would be your only change if you want the same results for a different election. For example, the name of the data file might be more specific to each election, i.e. Sheriff_2021_election_data. The name of the files to load to and save to would need to be modified in the script.
+![Variable%20to%20Load.png](https://github.com/KimberlyCrawford/Election-Analysis/blob/main/Variable%20to%20Load.png)
+
+2. Updated information in the data file with political party instead of county, candidate names and ballot IDs - Again, updates to the data file names in the first part of the script as shown in the first example above would need to be made. Then, updates to the variables names will need to be changed throughout the script. For instance, county_options would need to be changed to political_party_options and so on.
+![Political_party.png](https://github.com/KimberlyCrawford/Election-Analysis/blob/main/Political_party.png)
