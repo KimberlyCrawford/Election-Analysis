@@ -60,3 +60,5 @@ Two examples of how this script can be modified to be used for other elections i
 
 2. Updated information in the data file with political party instead of county, candidate names and ballot IDs - Again, updates to the data file names in the first part of the script as shown in the first example above would need to be made. Then, updates to the variables names will need to be changed throughout the script. For instance, county_options would need to be changed to political_party_options and so on.
 ![Political_party.png](https://github.com/KimberlyCrawford/Election-Analysis/blob/main/Political_party.png)
+
+#### Module 3, Data Analysis & Visualization Certificate Program, UT Austin McCombs School of Business, 2021.
