@@ -1,4 +1,5 @@
 # Election-Analysis
+An analysis of election results using the command prompt in Window to write and run Python programming scripts and algorithms.
 
 ## Project Overview
 An assistant to a Colorado Board of Elections employee was given the following tasks to complete an election audit of a local congressional election.
